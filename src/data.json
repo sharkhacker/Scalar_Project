@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Student 1",
+    "rollNumber": "S001",
+    "techStack": "React",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 2",
+    "rollNumber": "S002",
+    "techStack": "Python",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 3",
+    "rollNumber": "S003",
+    "techStack": "Java",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 4",
+    "rollNumber": "S004",
+    "techStack": "C++",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 5",
+    "rollNumber": "S005",
+    "techStack": "JavaScript",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 6",
+    "rollNumber": "S006",
+    "techStack": "Ruby",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 7",
+    "rollNumber": "S007",
+    "techStack": "PHP",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 8",
+    "rollNumber": "S008",
+    "techStack": "Swift",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 9",
+    "rollNumber": "S009",
+    "techStack": "Kotlin",
+    "projectStatus": "unassigned"
+  },
+  {
+    "name": "Student 10",
+    "rollNumber": "S010",
+    "techStack": "C#",
+    "projectStatus": "unassigned"
+  }
+]

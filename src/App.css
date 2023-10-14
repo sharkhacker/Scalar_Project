@@ -1,0 +1,191 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+}
+
+/* Student List with Scroll Bar */
+.student-list {
+  width: 30%;
+  max-width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 20px;
+  background: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Student Card */
+.student-card {
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: #fff;
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Assigned Warning */
+.assigned-warning {
+  color: red;
+  font-weight: bold;
+}
+
+/* Mentor Dashboard container (Left Side) */
+.mentor-dashboard {
+  width: 70%;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+/* Filter Buttons */
+.filter-buttons, .filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.filter-buttons button, .filters button {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.filter-buttons button:hover, .filters button:hover {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  filter: brightness(1.2);
+}
+
+/* Student Info */
+.student-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.student-info strong {
+  font-weight: bold;
+}
+
+/* Marks */
+.marks input {
+  width: 60px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.marks button {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.marks button:hover {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  filter: brightness(1.2);
+}
+
+/* Buttons */
+.buttons button {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Submit Button container (Right Side) */
+.submit-button {
+  width: 30%;
+  text-align: right;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+/* Submit Button */
+.submit-button button {
+  background: linear-gradient(90deg, #4c1d95, #bd3d92);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.submit-button button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .student-list {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .mentor-dashboard {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
