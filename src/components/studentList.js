@@ -34,6 +34,9 @@ function StudentList({ students, selectedStudents, onStudentSelect, onStudentSta
                 <strong>Roll Number:</strong> {student.rollNumber}
               </div>
               <div>
+                <strong>Tech Stack:</strong> {student.techStack}
+              </div>
+              <div>
                 <strong>Status:</strong> {student.projectStatus}
                 {student.projectStatus === 'assigned' ? (
                   <span className="assigned-warning"></span>
